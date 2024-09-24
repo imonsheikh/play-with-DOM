@@ -8,5 +8,8 @@ document.getElementById('submit-btn').addEventListener('click', function(){
     p.innerText = inputValue
 
     container.appendChild(p)
+
+    // inputValue.value = ''(wrong)
+    document.getElementById('text-area').value = ''
     
 })
