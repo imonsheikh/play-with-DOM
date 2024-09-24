@@ -61,6 +61,6 @@ document.getElementById('quote').addEventListener('click', function(){
     console.log(quotes[randomIndex]);
 
     p.innerText = quotes[randomIndex].quote
-    
+    h1.innerText = quotes[randomIndex].author
 
 })
